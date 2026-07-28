@@ -1,0 +1,23 @@
+@model LibraryManagement.Web.Models.ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<div class="text-center py-5">
+    <i class="bi bi-exclamation-triangle text-danger" style="font-size: 4rem;"></i>
+    <h2 class="mt-3">An error occurred while processing your request.</h2>
+
+    @if (!string.IsNullOrEmpty(Model.Message))
+    {
+        <p class="text-muted">@Model.Message</p>
+    }
+
+    @if (Model.ShowRequestId)
+    {
+        <p class="text-muted">
+            <small>Request ID: <code>@Model.RequestId</code></small>
+        </p>
+    }
+
+    <a asp-controller="Dashboard" asp-action="Index" class="btn btn-primary">Back to Dashboard</a>
+</div> 
