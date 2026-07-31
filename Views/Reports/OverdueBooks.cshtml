@@ -1,0 +1,43 @@
+@model List<LibraryManagement.Web.Models.Entities.BorrowRecord>
+@using LibraryManagement.Web.Helpers
+@using LibraryManagement.Web.Models
+@using Microsoft.Extensions.Options
+@inject IOptions<AppSettings> AppSettingsAccessor
+@{
+    ViewData["Title"] = "Overdue Books Report";
+    var finePerDay = AppSettingsAccessor.Value.FinePerDayAmount;
+}
+
+<h2 class="text-danger"><i class="bi bi-exclamation-triangle"></i> Overdue Books</h2>
+
+<table class="table table-striped table-hover align-middle mt-3">
+    <thead>
+        <tr>
+            <th>Book</th>
+            <th>Member</th>
+            <th>Borrow Date</th>
+            <th>Due Date</th>
+            <th>Days Overdue</th>
+            <th>Estimated Fine</th>
+        </tr>
+    </thead>
+    <tbody>
+    @if (Model.Count == 0)
+    {
+        <tr><td colspan="6" class="text-center text-muted py-4">No overdue books. Everything is on time.</td></tr>
+    }
+    @foreach (var r in Model)
+    {
+        var daysOverdue = (DateTime.UtcNow.Date - r.DueDate.Date).Days;
+        var estimatedFine = FineCalculator.Calculate(r.DueDate, DateTime.UtcNow, finePerDay);
+        <tr class="table-danger">
+            <td>@r.Book.Title</td>
+            <td>@r.Member.FullName</td>
+            <td>@r.BorrowDate.ToString("dd MMM yyyy")</td>
+            <td>@r.DueDate.ToString("dd MMM yyyy")</td>
+            <td>@daysOverdue</td>
+            <td>@estimatedFine.ToString("C")</td>
+        </tr>
+    }
+    </tbody>
+</table>

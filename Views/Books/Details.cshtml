@@ -1,0 +1,61 @@
+@model LibraryManagement.Web.ViewModels.BookDetailsViewModel
+@{
+    ViewData["Title"] = "Book Details";
+}
+
+<h2><i class="bi bi-book"></i> @Model.Title</h2>
+
+<div class="card col-md-8">
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">ISBN</dt>
+            <dd class="col-sm-9">@Model.ISBN</dd>
+
+            <dt class="col-sm-3">Author</dt>
+            <dd class="col-sm-9">
+                @Model.AuthorName
+                @if (!string.IsNullOrWhiteSpace(Model.AuthorBio))
+                {
+                    <br /><small class="text-muted">@Model.AuthorBio</small>
+                }
+            </dd>
+
+            <dt class="col-sm-3">Category</dt>
+            <dd class="col-sm-9">
+                @Model.CategoryName
+                @if (!string.IsNullOrWhiteSpace(Model.CategoryDescription))
+                {
+                    <br /><small class="text-muted">@Model.CategoryDescription</small>
+                }
+            </dd>
+
+            <dt class="col-sm-3">Publisher</dt>
+            <dd class="col-sm-9">
+                @Model.PublisherName
+                @if (!string.IsNullOrWhiteSpace(Model.PublisherAddress))
+                {
+                    <br /><small class="text-muted">@Model.PublisherAddress</small>
+                }
+            </dd>
+
+            <dt class="col-sm-3">Published Year</dt>
+            <dd class="col-sm-9">@Model.PublishedYear</dd>
+
+            <dt class="col-sm-3">Copies</dt>
+            <dd class="col-sm-9">
+                <span class="badge @(Model.AvailableCopies > 0 ? "bg-success" : "bg-secondary")">
+                    @Model.AvailableCopies available / @Model.TotalCopies total
+                </span>
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<div class="mt-3">
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Edit" asp-route-id="@Model.BookId" class="btn btn-primary"><i class="bi bi-pencil"></i> Edit</a>
+        <a asp-action="Delete" asp-route-id="@Model.BookId" class="btn btn-outline-danger"><i class="bi bi-trash"></i> Delete</a>
+    }
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

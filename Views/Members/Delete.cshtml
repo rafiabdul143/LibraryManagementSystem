@@ -1,0 +1,38 @@
+@model LibraryManagement.Web.Models.Entities.Member
+
+@{
+    ViewData["Title"] = "Delete Member";
+}
+
+<h2>Delete Member</h2>
+
+<div class="alert alert-danger">
+    Are you sure you want to delete this member?
+</div>
+
+<dl class="row">
+
+    <dt class="col-sm-3">Name</dt>
+    <dd class="col-sm-9">@Model.FullName</dd>
+
+    <dt class="col-sm-3">Email</dt>
+    <dd class="col-sm-9">@Model.Email</dd>
+
+    <dt class="col-sm-3">Phone</dt>
+    <dd class="col-sm-9">@Model.Phone</dd>
+
+</dl>
+
+<form asp-action="Delete">
+
+    <input type="hidden" asp-for="MemberId" />
+
+    <button type="submit" class="btn btn-danger">
+        Delete
+    </button>
+
+    <a asp-action="Index" class="btn btn-secondary">
+        Cancel
+    </a>
+
+</form>

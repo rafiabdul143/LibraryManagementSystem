@@ -1,0 +1,61 @@
+@model LibraryManagement.Web.Models.Entities.Member
+
+@{
+    ViewData["Title"] = "Member Details";
+}
+
+<h2>Member Details</h2>
+
+<hr />
+
+<dl class="row">
+
+    <dt class="col-sm-3">Full Name</dt>
+    <dd class="col-sm-9">@Model.FullName</dd>
+
+    <dt class="col-sm-3">Email</dt>
+    <dd class="col-sm-9">@Model.Email</dd>
+
+    <dt class="col-sm-3">Phone</dt>
+    <dd class="col-sm-9">@Model.Phone</dd>
+
+    <dt class="col-sm-3">Member Since</dt>
+    <dd class="col-sm-9">@Model.MembershipDate.ToShortDateString()</dd>
+
+</dl>
+
+<h4>Borrow History</h4>
+
+@if (Model.BorrowRecords != null && Model.BorrowRecords.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Book</th>
+                <th>Borrowed</th>
+                <th>Returned</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+@foreach (var borrow in Model.BorrowRecords)
+{
+            <tr>
+                <td>@borrow.Book?.Title</td>
+                <td>@borrow.BorrowDate.ToShortDateString()</td>
+                <td>@(borrow.ReturnDate?.ToShortDateString() ?? "Not Returned")</td>
+            </tr>
+}
+
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">
+        No borrowing history available.
+    </div>
+}
+
+<a asp-action="Index" class="btn btn-secondary">Back</a>

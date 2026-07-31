@@ -1,0 +1,43 @@
+@model List<LibraryManagement.Web.Models.Entities.Author>
+@{
+    ViewData["Title"] = "Authors";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2><i class="bi bi-person-lines-fill"></i> Authors</h2>
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-circle"></i> Add Author</a>
+    }
+</div>
+
+<table class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Bio</th>
+            <th class="text-end">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+    @if (Model.Count == 0)
+    {
+        <tr><td colspan="3" class="text-center text-muted py-4">No authors found.</td></tr>
+    }
+    @foreach (var author in Model)
+    {
+        <tr>
+            <td>@author.FullName</td>
+            <td>@(string.IsNullOrWhiteSpace(author.Bio) ? "-" : (author.Bio.Length > 80 ? author.Bio.Substring(0, 80) + "..." : author.Bio))</td>
+            <td class="text-end">
+                <a asp-action="Details" asp-route-id="@author.AuthorId" class="btn btn-sm btn-outline-secondary"><i class="bi bi-eye"></i></a>
+                @if (User.IsInRole("Admin"))
+                {
+                    <a asp-action="Edit" asp-route-id="@author.AuthorId" class="btn btn-sm btn-outline-primary"><i class="bi bi-pencil"></i></a>
+                    <a asp-action="Delete" asp-route-id="@author.AuthorId" class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></a>
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

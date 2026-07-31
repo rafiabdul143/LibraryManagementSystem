@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\ViewModels",
+    "\\Views",
+    "\\Views\\Books",
+    "\\Views\\Borrow",
+    "\\Views\\Categories",
+    "\\Views\\Dashboard",
+    "\\Views\\Members",
+    "\\Views\\Reports"
+  ],
+  "SelectedNode": "\\Program.cs",
+  "PreviewInSolutionExplorer": true
+}

@@ -1,0 +1,37 @@
+@model LibraryManagement.Web.ViewModels.IssueBookViewModel
+@{
+    ViewData["Title"] = "Issue Book";
+}
+
+<h2><i class="bi bi-plus-circle"></i> Issue Book</h2>
+
+<form asp-action="Issue" method="post" class="col-md-6">
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+    <div class="mb-3">
+        <label asp-for="BookId" class="form-label"></label>
+        <select asp-for="BookId" class="form-select" asp-items="Model.Books">
+            <option value="">-- Select Book --</option>
+        </select>
+        <span asp-validation-for="BookId" class="text-danger"></span>
+        @if (Model.Books.Count == 0)
+        {
+            <div class="form-text text-warning">No books currently have available copies.</div>
+        }
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="MemberId" class="form-label"></label>
+        <select asp-for="MemberId" class="form-select" asp-items="Model.Members">
+            <option value="">-- Select Member --</option>
+        </select>
+        <span asp-validation-for="MemberId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary"><i class="bi bi-check-circle"></i> Issue Book</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

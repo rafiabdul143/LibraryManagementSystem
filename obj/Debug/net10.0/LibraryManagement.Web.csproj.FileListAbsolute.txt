@@ -225,8 +225,8 @@ C:\Users\Quadrant\Desktop\Work\LibraryManagementSystem\LibraryManagement.Web\obj
 C:\Users\Quadrant\Desktop\Work\LibraryManagementSystem\LibraryManagement.Web\obj\Debug\net10.0\ref\LibraryManagement.Web.dll
 C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\appsettings.Development.json
 C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\appsettings.json
-C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\LibraryManagement.Web.staticwebassets.endpoints.json
 C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\LibraryManagement.Web.staticwebassets.runtime.json
+C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\LibraryManagement.Web.staticwebassets.endpoints.json
 C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\LibraryManagement.Web.exe
 C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\LibraryManagement.Web.deps.json
 C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\LibraryManagement.Web.runtimeconfig.json
@@ -264,6 +264,15 @@ C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\Microsoft.Sql
 C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
 C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\Mono.TextTemplating.dll
 C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\Serilog.dll
+C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\Serilog.AspNetCore.dll
+C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\Serilog.Sinks.File.dll
 C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\System.ClientModel.dll
 C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\System.CodeDom.dll
 C:\LibraryManagementSystem\LibraryManagement.Web\bin\Debug\net10.0\System.Composition.AttributedModel.dll
@@ -367,6 +376,7 @@ C:\LibraryManagementSystem\LibraryManagement.Web\obj\Debug\net10.0\LibraryManage
 C:\LibraryManagementSystem\LibraryManagement.Web\obj\Debug\net10.0\LibraryManagement.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\LibraryManagementSystem\LibraryManagement.Web\obj\Debug\net10.0\LibraryManagement.Web.RazorAssemblyInfo.cache
 C:\LibraryManagementSystem\LibraryManagement.Web\obj\Debug\net10.0\LibraryManagement.Web.RazorAssemblyInfo.cs
+C:\LibraryManagementSystem\LibraryManagement.Web\obj\Debug\net10.0\LibraryManagement.Web.sourcelink.json
 C:\LibraryManagementSystem\LibraryManagement.Web\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\LibraryManagementSystem\LibraryManagement.Web\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\LibraryManagementSystem\LibraryManagement.Web\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json

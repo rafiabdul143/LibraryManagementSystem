@@ -1,0 +1,650 @@
+Folder PATH listing
+Volume serial number is 0000001D 3CEE:5D0E
+C:.
+¦   appsettings.Development.json
+¦   appsettings.json
+¦   LibraryManagement.Web.csproj
+¦   Program.cs
+¦   ProjectStructure.txt
+¦   
++---bin
+¦   +---Debug
+¦   ¦   +---net10.0
+¦   ¦       ¦   appsettings.Development.json
+¦   ¦       ¦   appsettings.json
+¦   ¦       ¦   Azure.Core.dll
+¦   ¦       ¦   Azure.Identity.dll
+¦   ¦       ¦   Humanizer.dll
+¦   ¦       ¦   LibraryManagement.Web.deps.json
+¦   ¦       ¦   LibraryManagement.Web.dll
+¦   ¦       ¦   LibraryManagement.Web.exe
+¦   ¦       ¦   LibraryManagement.Web.pdb
+¦   ¦       ¦   LibraryManagement.Web.runtimeconfig.json
+¦   ¦       ¦   LibraryManagement.Web.staticwebassets.endpoints.json
+¦   ¦       ¦   LibraryManagement.Web.staticwebassets.runtime.json
+¦   ¦       ¦   Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+¦   ¦       ¦   Microsoft.Bcl.AsyncInterfaces.dll
+¦   ¦       ¦   Microsoft.Bcl.Cryptography.dll
+¦   ¦       ¦   Microsoft.Build.Framework.dll
+¦   ¦       ¦   Microsoft.CodeAnalysis.CSharp.dll
+¦   ¦       ¦   Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+¦   ¦       ¦   Microsoft.CodeAnalysis.dll
+¦   ¦       ¦   Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+¦   ¦       ¦   Microsoft.CodeAnalysis.Workspaces.dll
+¦   ¦       ¦   Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+¦   ¦       ¦   Microsoft.Data.SqlClient.dll
+¦   ¦       ¦   Microsoft.EntityFrameworkCore.Abstractions.dll
+¦   ¦       ¦   Microsoft.EntityFrameworkCore.Design.dll
+¦   ¦       ¦   Microsoft.EntityFrameworkCore.dll
+¦   ¦       ¦   Microsoft.EntityFrameworkCore.Relational.dll
+¦   ¦       ¦   Microsoft.EntityFrameworkCore.SqlServer.dll
+¦   ¦       ¦   Microsoft.Extensions.DependencyModel.dll
+¦   ¦       ¦   Microsoft.Identity.Client.dll
+¦   ¦       ¦   Microsoft.Identity.Client.Extensions.Msal.dll
+¦   ¦       ¦   Microsoft.IdentityModel.Abstractions.dll
+¦   ¦       ¦   Microsoft.IdentityModel.JsonWebTokens.dll
+¦   ¦       ¦   Microsoft.IdentityModel.Logging.dll
+¦   ¦       ¦   Microsoft.IdentityModel.Protocols.dll
+¦   ¦       ¦   Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+¦   ¦       ¦   Microsoft.IdentityModel.Tokens.dll
+¦   ¦       ¦   Microsoft.SqlServer.Server.dll
+¦   ¦       ¦   Microsoft.VisualStudio.SolutionPersistence.dll
+¦   ¦       ¦   Mono.TextTemplating.dll
+¦   ¦       ¦   Newtonsoft.Json.dll
+¦   ¦       ¦   System.ClientModel.dll
+¦   ¦       ¦   System.CodeDom.dll
+¦   ¦       ¦   System.Composition.AttributedModel.dll
+¦   ¦       ¦   System.Composition.Convention.dll
+¦   ¦       ¦   System.Composition.Hosting.dll
+¦   ¦       ¦   System.Composition.Runtime.dll
+¦   ¦       ¦   System.Composition.TypedParts.dll
+¦   ¦       ¦   System.Configuration.ConfigurationManager.dll
+¦   ¦       ¦   System.IdentityModel.Tokens.Jwt.dll
+¦   ¦       ¦   System.Memory.Data.dll
+¦   ¦       ¦   System.Security.Cryptography.ProtectedData.dll
+¦   ¦       ¦   
+¦   ¦       +---BuildHost-net472
+¦   ¦       ¦   ¦   Microsoft.Build.Locator.dll
+¦   ¦       ¦   ¦   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe
+¦   ¦       ¦   ¦   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe.config
+¦   ¦       ¦   ¦   Microsoft.IO.Redist.dll
+¦   ¦       ¦   ¦   Newtonsoft.Json.dll
+¦   ¦       ¦   ¦   System.Buffers.dll
+¦   ¦       ¦   ¦   System.Collections.Immutable.dll
+¦   ¦       ¦   ¦   System.CommandLine.dll
+¦   ¦       ¦   ¦   System.Memory.dll
+¦   ¦       ¦   ¦   System.Numerics.Vectors.dll
+¦   ¦       ¦   ¦   System.Runtime.CompilerServices.Unsafe.dll
+¦   ¦       ¦   ¦   System.Threading.Tasks.Extensions.dll
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---cs
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---de
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---es
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---fr
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---it
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---ja
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---ko
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---pl
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---pt-BR
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---ru
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---tr
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---zh-Hans
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---zh-Hant
+¦   ¦       ¦           System.CommandLine.resources.dll
+¦   ¦       ¦           
+¦   ¦       +---BuildHost-netcore
+¦   ¦       ¦   ¦   Microsoft.Build.Locator.dll
+¦   ¦       ¦   ¦   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.deps.json
+¦   ¦       ¦   ¦   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+¦   ¦       ¦   ¦   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.runtimeconfig.json
+¦   ¦       ¦   ¦   Newtonsoft.Json.dll
+¦   ¦       ¦   ¦   System.Collections.Immutable.dll
+¦   ¦       ¦   ¦   System.CommandLine.dll
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---cs
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---de
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---es
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---fr
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---it
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---ja
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---ko
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---pl
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---pt-BR
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---ru
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---tr
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---zh-Hans
+¦   ¦       ¦   ¦       System.CommandLine.resources.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---zh-Hant
+¦   ¦       ¦           System.CommandLine.resources.dll
+¦   ¦       ¦           
+¦   ¦       +---cs
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.Data.SqlClient.resources.dll
+¦   ¦       ¦       
+¦   ¦       +---de
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.Data.SqlClient.resources.dll
+¦   ¦       ¦       
+¦   ¦       +---es
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.Data.SqlClient.resources.dll
+¦   ¦       ¦       
+¦   ¦       +---fr
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.Data.SqlClient.resources.dll
+¦   ¦       ¦       
+¦   ¦       +---it
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.Data.SqlClient.resources.dll
+¦   ¦       ¦       
+¦   ¦       +---ja
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.Data.SqlClient.resources.dll
+¦   ¦       ¦       
+¦   ¦       +---ko
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.Data.SqlClient.resources.dll
+¦   ¦       ¦       
+¦   ¦       +---pl
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.Data.SqlClient.resources.dll
+¦   ¦       ¦       
+¦   ¦       +---pt-BR
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.Data.SqlClient.resources.dll
+¦   ¦       ¦       
+¦   ¦       +---ru
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.Data.SqlClient.resources.dll
+¦   ¦       ¦       
+¦   ¦       +---runtimes
+¦   ¦       ¦   +---unix
+¦   ¦       ¦   ¦   +---lib
+¦   ¦       ¦   ¦       +---net9.0
+¦   ¦       ¦   ¦               Microsoft.Data.SqlClient.dll
+¦   ¦       ¦   ¦               
+¦   ¦       ¦   +---win
+¦   ¦       ¦   ¦   +---lib
+¦   ¦       ¦   ¦       +---net9.0
+¦   ¦       ¦   ¦               Microsoft.Data.SqlClient.dll
+¦   ¦       ¦   ¦               
+¦   ¦       ¦   +---win-arm64
+¦   ¦       ¦   ¦   +---native
+¦   ¦       ¦   ¦           Microsoft.Data.SqlClient.SNI.dll
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---win-x64
+¦   ¦       ¦   ¦   +---native
+¦   ¦       ¦   ¦           Microsoft.Data.SqlClient.SNI.dll
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---win-x86
+¦   ¦       ¦       +---native
+¦   ¦       ¦               Microsoft.Data.SqlClient.SNI.dll
+¦   ¦       ¦               
+¦   ¦       +---tr
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.Data.SqlClient.resources.dll
+¦   ¦       ¦       
+¦   ¦       +---zh-Hans
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦       ¦       Microsoft.Data.SqlClient.resources.dll
+¦   ¦       ¦       
+¦   ¦       +---zh-Hant
+¦   ¦               Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦               Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦               Microsoft.CodeAnalysis.resources.dll
+¦   ¦               Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+¦   ¦               Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦               Microsoft.Data.SqlClient.resources.dll
+¦   ¦               
+¦   +---Release
+¦       +---net10.0
++---Controllers
+¦       AccountController.cs
+¦       BooksController.cs
+¦       HomeController.cs
+¦       
++---Data
+¦   ¦   Applicationdbcontext.cs
+¦   ¦   
+¦   +---Configurations
+¦   ¦       AuthorConfiguration.cs
+¦   ¦       BookConfiguration.cs
+¦   ¦       BorrowRecordConfiguration.cs
+¦   ¦       CategoryConfiguration.cs
+¦   ¦       MemberConfiguration.cs
+¦   ¦       PublisherConfiguration.cs
+¦   ¦       
+¦   +---SeedData
+¦           DbInitializer.cs
+¦           
++---Helpers
+¦       FineCalculator.cs
+¦       PaginationHelper.cs
+¦       
++---Migrations
+¦       20260728045508_InitialCreate.cs
+¦       20260728045508_InitialCreate.Designer.cs
+¦       ApplicationDbContextModelSnapshot.cs
+¦       
++---Models
+¦   ¦   AppSettings.cs
+¦   ¦   ErrorViewModel.cs
+¦   ¦   
+¦   +---Entities
+¦           ApplicationUser.cs
+¦           Author.cs
+¦           Book.cs
+¦           BorrowRecord.cs
+¦           Category.cs
+¦           Member.cs
+¦           Publisher.cs
+¦           
++---obj
+¦   ¦   LibraryManagement.Web.csproj.nuget.dgspec.json
+¦   ¦   LibraryManagement.Web.csproj.nuget.g.props
+¦   ¦   LibraryManagement.Web.csproj.nuget.g.targets
+¦   ¦   project.assets.json
+¦   ¦   project.nuget.cache
+¦   ¦   
+¦   +---Debug
+¦   ¦   +---net10.0
+¦   ¦       ¦   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+¦   ¦       ¦   apphost.exe
+¦   ¦       ¦   LibraryM.A310DFF2.Up2Date
+¦   ¦       ¦   LibraryManagement.Web.AssemblyInfo.cs
+¦   ¦       ¦   LibraryManagement.Web.AssemblyInfoInputs.cache
+¦   ¦       ¦   LibraryManagement.Web.assets.cache
+¦   ¦       ¦   LibraryManagement.Web.csproj.AssemblyReference.cache
+¦   ¦       ¦   LibraryManagement.Web.csproj.CoreCompileInputs.cache
+¦   ¦       ¦   LibraryManagement.Web.csproj.FileListAbsolute.txt
+¦   ¦       ¦   LibraryManagement.Web.dll
+¦   ¦       ¦   LibraryManagement.Web.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦       ¦   LibraryManagement.Web.genruntimeconfig.cache
+¦   ¦       ¦   LibraryManagement.Web.GlobalUsings.g.cs
+¦   ¦       ¦   LibraryManagement.Web.MvcApplicationPartsAssemblyInfo.cache
+¦   ¦       ¦   LibraryManagement.Web.pdb
+¦   ¦       ¦   LibraryManagement.Web.RazorAssemblyInfo.cache
+¦   ¦       ¦   LibraryManagement.Web.RazorAssemblyInfo.cs
+¦   ¦       ¦   LibraryManagement.Web.sourcelink.json
+¦   ¦       ¦   rbcswa.dswa.cache.json
+¦   ¦       ¦   rjimswa.dswa.cache.json
+¦   ¦       ¦   rjsmcshtml.dswa.cache.json
+¦   ¦       ¦   rjsmrazor.dswa.cache.json
+¦   ¦       ¦   rpswa.dswa.cache.json
+¦   ¦       ¦   staticwebassets.build.endpoints.json
+¦   ¦       ¦   staticwebassets.build.json
+¦   ¦       ¦   staticwebassets.build.json.cache
+¦   ¦       ¦   staticwebassets.development.json
+¦   ¦       ¦   swae.build.ex.cache
+¦   ¦       ¦   
+¦   ¦       +---compressed
+¦   ¦       ¦       0q3ey11jb6-{0}-06098lyss8-06098lyss8.gz
+¦   ¦       ¦       28d0efhx7e-{0}-61n19gt1b8-61n19gt1b8.gz
+¦   ¦       ¦       2uiktulwck-{0}-khv3u5hwcm-khv3u5hwcm.gz
+¦   ¦       ¦       3nytsjl0c0-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+¦   ¦       ¦       3vyvbmbyru-{0}-46ein0sx1k-46ein0sx1k.gz
+¦   ¦       ¦       4fdheldrov-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+¦   ¦       ¦       5dxir49n53-{0}-mlv21k5csn-mlv21k5csn.gz
+¦   ¦       ¦       5gnqf3gp0p-{0}-j5mq2jizvt-j5mq2jizvt.gz
+¦   ¦       ¦       6085w27y0q-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+¦   ¦       ¦       6qxeshiw0e-{0}-b7pk76d08c-b7pk76d08c.gz
+¦   ¦       ¦       78hqza8nr7-{0}-0j3bgjxly4-0j3bgjxly4.gz
+¦   ¦       ¦       7jiw381swz-{0}-4v8eqarkd7-4v8eqarkd7.gz
+¦   ¦       ¦       7pvzdmzrud-{0}-bqjiyaj88i-bqjiyaj88i.gz
+¦   ¦       ¦       88x6q9n8pm-{0}-c2oey78nd0-c2oey78nd0.gz
+¦   ¦       ¦       8mgn7i6in6-{0}-0i3buxo5is-0i3buxo5is.gz
+¦   ¦       ¦       98cvz64jk6-{0}-y7v9cxd14o-y7v9cxd14o.gz
+¦   ¦       ¦       a75s2l815i-{0}-37tfw0ft22-37tfw0ft22.gz
+¦   ¦       ¦       aahu1thj0i-{0}-kbrnm935zg-kbrnm935zg.gz
+¦   ¦       ¦       ad05drobwx-{0}-o1o13a6vjx-o1o13a6vjx.gz
+¦   ¦       ¦       e5a27bapq6-{0}-fsbi9cje9m-fsbi9cje9m.gz
+¦   ¦       ¦       ez185owbb7-{0}-nvvlpmu67g-nvvlpmu67g.gz
+¦   ¦       ¦       g67sx36feo-{0}-ub07r2b239-ub07r2b239.gz
+¦   ¦       ¦       g6k6flyoxk-{0}-h1s4sie4z3-h1s4sie4z3.gz
+¦   ¦       ¦       g7kn9xzsug-{0}-jd9uben2k1-jd9uben2k1.gz
+¦   ¦       ¦       g87mzb65oa-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+¦   ¦       ¦       gl37hc5ue3-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+¦   ¦       ¦       gw011n3ngx-{0}-vr1egmr9el-vr1egmr9el.gz
+¦   ¦       ¦       hslqf1117p-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+¦   ¦       ¦       hzyzlidm6g-{0}-tdbxkamptv-tdbxkamptv.gz
+¦   ¦       ¦       j1mr8mqeb9-{0}-erw9l3u2r3-erw9l3u2r3.gz
+¦   ¦       ¦       jmvdcqkufc-{0}-63fj8s7r0e-63fj8s7r0e.gz
+¦   ¦       ¦       jrmjukjiae-{0}-87fc7y1x7t-87fc7y1x7t.gz
+¦   ¦       ¦       jvmobwq5y0-{0}-pj5nd1wqec-pj5nd1wqec.gz
+¦   ¦       ¦       k8ar2fzvj3-{0}-cosvhxvwiu-cosvhxvwiu.gz
+¦   ¦       ¦       lso6kvzo1w-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+¦   ¦       ¦       m9wn568pxf-{0}-ag7o75518u-ag7o75518u.gz
+¦   ¦       ¦       mappx3t33b-{0}-iovd86k7lj-iovd86k7lj.gz
+¦   ¦       ¦       n9drl0zabz-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+¦   ¦       ¦       nalt6gstlz-{0}-mkrozx63ot-mkrozx63ot.gz
+¦   ¦       ¦       o4ai34mx0i-{0}-d7shbmvgxk-d7shbmvgxk.gz
+¦   ¦       ¦       ognq9zyfko-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+¦   ¦       ¦       oj7g70qklt-{0}-ttgo8qnofa-ttgo8qnofa.gz
+¦   ¦       ¦       oohrobmro1-{0}-hrwsygsryq-hrwsygsryq.gz
+¦   ¦       ¦       oxsm8tzhvl-{0}-c2jlpeoesf-c2jlpeoesf.gz
+¦   ¦       ¦       plsdqnqn8z-{0}-ft3s53vfgj-ft3s53vfgj.gz
+¦   ¦       ¦       qr6uai41c8-{0}-rzd6atqjts-rzd6atqjts.gz
+¦   ¦       ¦       sa4v9t9rku-{0}-b9sayid5wm-b9sayid5wm.gz
+¦   ¦       ¦       sj1l6sgarv-{0}-356vix0kms-356vix0kms.gz
+¦   ¦       ¦       uk3dorljuu-{0}-493y06b0oq-493y06b0oq.gz
+¦   ¦       ¦       upu0k3m63i-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+¦   ¦       ¦       uqtjbd8l0e-{0}-ausgxo2sd3-ausgxo2sd3.gz
+¦   ¦       ¦       v7f12r4owg-{0}-83jwlth58m-83jwlth58m.gz
+¦   ¦       ¦       vuy4jss8j5-{0}-dxx9fxp4il-dxx9fxp4il.gz
+¦   ¦       ¦       wgh3j68wwc-{0}-6pdc2jztkx-6pdc2jztkx.gz
+¦   ¦       ¦       wi6vmifki9-{0}-v0zj4ognzu-v0zj4ognzu.gz
+¦   ¦       ¦       wxq9kbqe8d-{0}-aexeepp0ev-aexeepp0ev.gz
+¦   ¦       ¦       x96ibzpy40-{0}-47otxtyo56-47otxtyo56.gz
+¦   ¦       ¦       xvkh0rkkrx-{0}-mkrozx63ot-mkrozx63ot.gz
+¦   ¦       ¦       yb2h6h9f2z-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+¦   ¦       ¦       yjp9g2tk58-{0}-6cfz1n2cew-6cfz1n2cew.gz
+¦   ¦       ¦       z7f8d08knp-{0}-notf2xhcfb-notf2xhcfb.gz
+¦   ¦       ¦       zk2tnp3zi5-{0}-muycvpuwrr-muycvpuwrr.gz
+¦   ¦       ¦       zz9dkni688-{0}-s35ty4nyc5-s35ty4nyc5.gz
+¦   ¦       ¦       zzl2fpbplh-{0}-mrlpezrjn3-mrlpezrjn3.gz
+¦   ¦       ¦       
+¦   ¦       +---ref
+¦   ¦       ¦       LibraryManagement.Web.dll
+¦   ¦       ¦       
+¦   ¦       +---refint
+¦   ¦       ¦       LibraryManagement.Web.dll
+¦   ¦       ¦       
+¦   ¦       +---scopedcss
+¦   ¦       ¦   +---bundle
+¦   ¦       ¦   ¦       LibraryManagement.Web.styles.css
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---projectbundle
+¦   ¦       ¦   ¦       LibraryManagement.Web.bundle.scp.css
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---Views
+¦   ¦       ¦       +---Shared
+¦   ¦       ¦               _Layout.cshtml.rz.scp.css
+¦   ¦       ¦               
+¦   ¦       +---staticwebassets
+¦   +---Release
+¦       +---net10.0
+¦           ¦   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+¦           ¦   LibraryManagement.Web.AssemblyInfo.cs
+¦           ¦   LibraryManagement.Web.AssemblyInfoInputs.cache
+¦           ¦   LibraryManagement.Web.assets.cache
+¦           ¦   LibraryManagement.Web.csproj.AssemblyReference.cache
+¦           ¦   LibraryManagement.Web.GeneratedMSBuildEditorConfig.editorconfig
+¦           ¦   LibraryManagement.Web.GlobalUsings.g.cs
+¦           ¦   LibraryManagement.Web.RazorAssemblyInfo.cache
+¦           ¦   LibraryManagement.Web.RazorAssemblyInfo.cs
+¦           ¦   
+¦           +---ref
+¦           +---refint
++---Properties
+¦       launchSettings.json
+¦       
++---Repositories
+¦   +---Implementations
+¦   ¦       AuthorRepository.cs
+¦   ¦       BookRepository.cs
+¦   ¦       BorrowRepository.cs
+¦   ¦       CategoryRepository.cs
+¦   ¦       GenericRepository.cs
+¦   ¦       MemberRepository.cs
+¦   ¦       PublisherRepository.cs
+¦   ¦       UnitOfWork.cs
+¦   ¦       
+¦   +---Interfaces
+¦           IAuthorRepository.cs
+¦           IBookRepository.cs
+¦           IBorrowRepository.cs
+¦           ICategoryRepository.cs
+¦           IGenericRepository.cs
+¦           IMemberRepository.cs
+¦           IPublisherRepository.cs
+¦           IUnitOfWork.cs
+¦           
++---Services
+¦   ¦   DashboardSummary.cs
+¦   ¦   ServiceResult.cs
+¦   ¦   
+¦   +---Implementations
+¦   ¦       AuthorService.cs
+¦   ¦       BookService.cs
+¦   ¦       BorrowService.cs
+¦   ¦       CategoryService.cs
+¦   ¦       DashboardService.cs
+¦   ¦       MemberService.cs
+¦   ¦       PublisherService.cs
+¦   ¦       
+¦   +---Interfaces
+¦           IAuthorService.cs
+¦           IBookService.cs
+¦           IBorrowService.cs
+¦           ICategoryService.cs
+¦           IDashboardService.cs
+¦           IMemberService.cs
+¦           IPublisherService.cs
+¦           
++---ViewModels
+¦   ¦   BookDetailsViewModel.cs
+¦   ¦   BookIndexViewModel.cs
+¦   ¦   BookListItemViewModel.cs
+¦   ¦   BookViewModel.cs
+¦   ¦   PaginatedList.cs
+¦   ¦   
+¦   +---Account
+¦           AssignRoleViewModel.cs
+¦           LoginViewModel.cs
+¦           RegisterViewModel.cs
+¦           UserListViewModel.cs
+¦           
++---Views
+¦   ¦   _ViewImports.cshtml
+¦   ¦   _ViewStart.cshtml
+¦   ¦   
+¦   +---Account
+¦   ¦       AccessDenied.cshtml
+¦   ¦       AssignRole.cshtml
+¦   ¦       Login.cshtml
+¦   ¦       Register.cshtml
+¦   ¦       Users.cshtml
+¦   ¦       
+¦   +---Books
+¦   ¦       Create.cshtml
+¦   ¦       Delete.cshtml
+¦   ¦       Details.cshtml
+¦   ¦       Edit.cshtml
+¦   ¦       Index.cshtml
+¦   ¦       
+¦   +---Home
+¦   ¦       Error.cshtml
+¦   ¦       Index.cshtml
+¦   ¦       Privacy.cshtml
+¦   ¦       
+¦   +---Shared
+¦           Error.cshtml
+¦           _Layout.cshtml
+¦           _Layout.cshtml.css
+¦           _LoginPartial.cshtml
+¦           _ValidationScriptsPartial.cshtml
+¦           
++---wwwroot
+    ¦   favicon.ico
+    ¦   
+    +---css
+    ¦       site.css
+    ¦       
+    +---js
+    ¦       site.js
+    ¦       
+    +---lib
+        +---bootstrap
+        ¦   ¦   LICENSE
+        ¦   ¦   
+        ¦   +---dist
+        ¦       +---css
+        ¦       ¦       bootstrap-grid.css
+        ¦       ¦       bootstrap-grid.css.map
+        ¦       ¦       bootstrap-grid.min.css
+        ¦       ¦       bootstrap-grid.min.css.map
+        ¦       ¦       bootstrap-grid.rtl.css
+        ¦       ¦       bootstrap-grid.rtl.css.map
+        ¦       ¦       bootstrap-grid.rtl.min.css
+        ¦       ¦       bootstrap-grid.rtl.min.css.map
+        ¦       ¦       bootstrap-reboot.css
+        ¦       ¦       bootstrap-reboot.css.map
+        ¦       ¦       bootstrap-reboot.min.css
+        ¦       ¦       bootstrap-reboot.min.css.map
+        ¦       ¦       bootstrap-reboot.rtl.css
+        ¦       ¦       bootstrap-reboot.rtl.css.map
+        ¦       ¦       bootstrap-reboot.rtl.min.css
+        ¦       ¦       bootstrap-reboot.rtl.min.css.map
+        ¦       ¦       bootstrap-utilities.css
+        ¦       ¦       bootstrap-utilities.css.map
+        ¦       ¦       bootstrap-utilities.min.css
+        ¦       ¦       bootstrap-utilities.min.css.map
+        ¦       ¦       bootstrap-utilities.rtl.css
+        ¦       ¦       bootstrap-utilities.rtl.css.map
+        ¦       ¦       bootstrap-utilities.rtl.min.css
+        ¦       ¦       bootstrap-utilities.rtl.min.css.map
+        ¦       ¦       bootstrap.css
+        ¦       ¦       bootstrap.css.map
+        ¦       ¦       bootstrap.min.css
+        ¦       ¦       bootstrap.min.css.map
+        ¦       ¦       bootstrap.rtl.css
+        ¦       ¦       bootstrap.rtl.css.map
+        ¦       ¦       bootstrap.rtl.min.css
+        ¦       ¦       bootstrap.rtl.min.css.map
+        ¦       ¦       
+        ¦       +---js
+        ¦               bootstrap.bundle.js
+        ¦               bootstrap.bundle.js.map
+        ¦               bootstrap.bundle.min.js
+        ¦               bootstrap.bundle.min.js.map
+        ¦               bootstrap.esm.js
+        ¦               bootstrap.esm.js.map
+        ¦               bootstrap.esm.min.js
+        ¦               bootstrap.esm.min.js.map
+        ¦               bootstrap.js
+        ¦               bootstrap.js.map
+        ¦               bootstrap.min.js
+        ¦               bootstrap.min.js.map
+        ¦               
+        +---jquery
+        ¦   ¦   LICENSE.txt
+        ¦   ¦   
+        ¦   +---dist
+        ¦           jquery.js
+        ¦           jquery.min.js
+        ¦           jquery.min.map
+        ¦           jquery.slim.js
+        ¦           jquery.slim.min.js
+        ¦           jquery.slim.min.map
+        ¦           
+        +---jquery-validation
+        ¦   ¦   LICENSE.md
+        ¦   ¦   
+        ¦   +---dist
+        ¦           additional-methods.js
+        ¦           additional-methods.min.js
+        ¦           jquery.validate.js
+        ¦           jquery.validate.min.js
+        ¦           
+        +---jquery-validation-unobtrusive
+            ¦   LICENSE.txt
+            ¦   
+            +---dist
+                    jquery.validate.unobtrusive.js
+                    jquery.validate.unobtrusive.min.js
+                    

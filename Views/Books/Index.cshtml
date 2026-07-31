@@ -1,1 +1,123 @@
- 
+@model LibraryManagement.Web.ViewModels.BookIndexViewModel
+@{
+    ViewData["Title"] = "Books";
+
+    string SortUrl(string column)
+    {
+        var asc = Model.SortColumn == column ? !Model.Ascending : true;
+        return Url.Action(nameof(LibraryManagement.Web.Controllers.BooksController.Index), new
+        {
+            searchTerm = Model.SearchTerm,
+            categoryId = Model.CategoryId,
+            authorId = Model.AuthorId,
+            sortColumn = column,
+            ascending = asc,
+            pageNumber = 1,
+            pageSize = Model.Books.PageSize
+        })!;
+    }
+
+    string SortIcon(string column) =>
+        Model.SortColumn == column ? (Model.Ascending ? "bi-sort-up" : "bi-sort-down") : "bi-arrow-down-up";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2><i class="bi bi-journal-bookmark"></i> Books</h2>
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-circle"></i> Add Book</a>
+    }
+</div>
+
+<form asp-action="Index" method="get" class="row g-2 mb-3">
+    <div class="col-md-4">
+        <input type="text" name="searchTerm" value="@Model.SearchTerm" class="form-control"
+               placeholder="Search by title, ISBN, or author..." />
+    </div>
+    <div class="col-md-3">
+        <select name="categoryId" class="form-select" asp-items="Model.Categories">
+            <option value="">All Categories</option>
+        </select>
+    </div>
+    <div class="col-md-3">
+        <select name="authorId" class="form-select" asp-items="Model.Authors">
+            <option value="">All Authors</option>
+        </select>
+    </div>
+    <div class="col-md-2">
+        <button type="submit" class="btn btn-outline-primary w-100"><i class="bi bi-search"></i> Filter</button>
+    </div>
+</form>
+
+<table class="table table-striped table-hover align-middle">
+    <thead>
+        <tr>
+            <th><a class="text-decoration-none" href="@SortUrl("title")">Title <i class="bi @SortIcon("title")"></i></a></th>
+            <th><a class="text-decoration-none" href="@SortUrl("author")">Author <i class="bi @SortIcon("author")"></i></a></th>
+            <th>Category</th>
+            <th>Publisher</th>
+            <th><a class="text-decoration-none" href="@SortUrl("year")">Year <i class="bi @SortIcon("year")"></i></a></th>
+            <th><a class="text-decoration-none" href="@SortUrl("available")">Available <i class="bi @SortIcon("available")"></i></a></th>
+            <th class="text-end">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+    @if (Model.Books.Items.Count == 0)
+    {
+        <tr><td colspan="7" class="text-center text-muted py-4">No books found.</td></tr>
+    }
+    @foreach (var book in Model.Books.Items)
+    {
+        <tr>
+            <td>@book.Title</td>
+            <td>@book.AuthorName</td>
+            <td>@book.CategoryName</td>
+            <td>@book.PublisherName</td>
+            <td>@book.PublishedYear</td>
+            <td>
+                <span class="badge @(book.AvailableCopies > 0 ? "bg-success" : "bg-secondary")">
+                    @book.AvailableCopies / @book.TotalCopies
+                </span>
+            </td>
+            <td class="text-end">
+                <a asp-action="Details" asp-route-id="@book.BookId" class="btn btn-sm btn-outline-secondary">
+                    <i class="bi bi-eye"></i>
+                </a>
+                @if (User.IsInRole("Admin"))
+                {
+                    <a asp-action="Edit" asp-route-id="@book.BookId" class="btn btn-sm btn-outline-primary">
+                        <i class="bi bi-pencil"></i>
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@book.BookId" class="btn btn-sm btn-outline-danger">
+                        <i class="bi bi-trash"></i>
+                    </a>
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+@{
+    var prevDisabled = !Model.Books.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.Books.HasNextPage ? "disabled" : "";
+}
+<nav>
+    <ul class="pagination">
+        <li class="page-item @prevDisabled">
+            <a class="page-link" href="@Url.Action(nameof(LibraryManagement.Web.Controllers.BooksController.Index), new {
+                searchTerm = Model.SearchTerm, categoryId = Model.CategoryId, authorId = Model.AuthorId,
+                sortColumn = Model.SortColumn, ascending = Model.Ascending,
+                pageNumber = Model.Books.PageNumber - 1, pageSize = Model.Books.PageSize })">Previous</a>
+        </li>
+        <li class="page-item disabled">
+            <span class="page-link">Page @Model.Books.PageNumber of @Model.Books.TotalPages</span>
+        </li>
+        <li class="page-item @nextDisabled">
+            <a class="page-link" href="@Url.Action(nameof(LibraryManagement.Web.Controllers.BooksController.Index), new {
+                searchTerm = Model.SearchTerm, categoryId = Model.CategoryId, authorId = Model.AuthorId,
+                sortColumn = Model.SortColumn, ascending = Model.Ascending,
+                pageNumber = Model.Books.PageNumber + 1, pageSize = Model.Books.PageSize })">Next</a>
+        </li>
+    </ul>
+</nav> 
